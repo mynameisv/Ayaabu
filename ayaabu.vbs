@@ -50,6 +50,17 @@
 ' The answer is... seriously, are you really asking this question !!?
 '
 '
+' Usage
+' -----------------------
+' To fake the installation, in last group of lines :
+' -> comment  : DeleteWMIObject(sAvName)
+' -> uncomment: AddWMIObject(sAvName)
+' and double-clic or execute by command line
+'
+' To remove that shit, in last group of lines, comment :
+' -> uncomment: DeleteWMIObject(sAvName)
+' -> comment  : AddWMIObject(sAvName)
+' and double-clic or execute by command line
 '
 '
 ' ----------------------------------
