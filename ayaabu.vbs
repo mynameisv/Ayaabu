@@ -118,6 +118,8 @@ listItems = Array("avast! Antivirus", _
 	"F-Secure PSB Workstation Security", _
 	"Kaspersky Endpoint Security 10 for Windows", _
 	"Kaspersky Internet Security", _
+	"Malwarebytes Anti-exploit", _
+	"Malwarebytes Anti-Malware", _
 	"McAfee VirusScan Enterprise", _
 	"Microsoft Security Essentials", _
 	"Norton 360 Online", _
