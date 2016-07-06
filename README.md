@@ -65,6 +65,8 @@ Is it safe ?
 
 Usage
 -----------------------
+ /!\ Must be run as administrator
+
  To fake the installation, in last group of lines :
  
  -> comment  : DeleteWMIObject(sAvName)
@@ -81,3 +83,7 @@ Usage
  -> comment  : AddWMIObject(sAvName)
 
  and double-clic or execute by command line
+
+ To Check the installation, run the following command line :
+ 
+ >WMIC /Node:localhost /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get
